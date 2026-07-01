@@ -1,15 +1,24 @@
-name: flutter_compass_v2
+name: flutter_compass_v3
 description: A Flutter compass. The heading varies from 0-360, 0 being north.
-version: 1.0.3
-homepage: https://github.com/medyas/flutter_compass_v2
+version: 1.0.0
+homepage: https://github.com/kemalmaulana/flutter_compass_v3
+topics:
+  - compass
+  - sensors
+  - heading
+  - location
 
 dependencies:
   flutter:
     sdk: flutter
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
 environment:
-  sdk: '>=2.12.0 <4.0.0'
-  flutter: '>=1.10.0'
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -22,4 +31,4 @@ flutter:
         package: com.hemanthraj.fluttercompass
         pluginClass: FlutterCompassPlugin
       ios:
-        pluginClass: FlutterCompassPlugin
+        pluginClass: SwiftFlutterCompassPlugin

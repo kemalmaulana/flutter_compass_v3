@@ -1,3 +1,10 @@
+## 1.0.0
+* Rebrand to `flutter_compass_v3`
+* Bump min Dart SDK to 3.4.0, min Flutter to 3.22.0
+* Add iOS Swift Package Manager support alongside existing CocoaPods podspec
+* Drop unused Objective-C plugin wrapper; register plugin directly via Swift
+* Bump Android `compileSdk`/`targetSdk` to 36, AGP to 8.11.1, Kotlin to 2.2.20
+
 ## 1.0.3
 * Fix ios pod issue
 

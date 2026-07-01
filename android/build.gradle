@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext {
-        kotlin_version = '1.9.22'
+        kotlin_version = '2.2.20'
     }
     repositories {
         google()
@@ -11,7 +11,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.11.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -28,7 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace "com.hemanthraj.fluttercompass"
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         minSdkVersion 20

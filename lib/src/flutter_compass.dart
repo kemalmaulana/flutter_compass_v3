@@ -8,12 +8,6 @@ import 'compass_event.dart';
 /// [FlutterCompass] is a singleton class that provides assess to compass events
 /// The heading varies from 0-360, 0 being north.
 class FlutterCompass {
-  static final FlutterCompass _instance = FlutterCompass._();
-
-  factory FlutterCompass() {
-    return _instance;
-  }
-
   FlutterCompass._();
 
   static const EventChannel _compassChannel = const EventChannel(

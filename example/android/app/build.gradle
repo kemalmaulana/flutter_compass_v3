@@ -13,7 +13,7 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    compileSdk 34
+    compileSdk 36
     namespace "com.hemanthraj.fluttercompassexample"
     lintOptions {
         disable 'InvalidPackage'
@@ -21,8 +21,8 @@ android {
 
     defaultConfig {
         applicationId "com.hemanthraj.fluttercompassexample"
-        minSdkVersion 23
-        targetSdkVersion 34
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 36
         versionCode 1
         versionName "1.0"
     }

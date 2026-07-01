@@ -1,6 +1,6 @@
-# flutter_compass_v2
+# flutter_compass_v3
 
-[![pub package](https://img.shields.io/pub/v/flutter_compass.svg)](https://pub.dartlang.org/packages/flutter_compass_v2)
+[![pub package](https://img.shields.io/pub/v/flutter_compass.svg)](https://pub.dartlang.org/packages/flutter_compass_v3)
 
 A Flutter compass. The heading varies from 0-360, 0 being north.
 
@@ -10,11 +10,11 @@ _Android Only: `null` is returned as direction on android when no sensor availab
 
 ## Usage
 
-To use this plugin, add `flutter_compass` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
+To use this plugin, add `flutter_compass_v3` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
 
 ```yaml
 dependencies:
-  flutter_compass_v2: '^1.0.0'
+  flutter_compass_v3: '^1.0.0'
 ```
 
 ### iOS
@@ -24,6 +24,11 @@ Make sure to add keys with appropriate descriptions to the `Info.plist` file.
 * `NSLocationAlwaysAndWhenInUseUsageDescription`
 
 :memo: [Reference example code](https://github.com/hemanthrajv/flutter_compass/blob/89dccd39a32af970322b237e574d2e6fa3454568/example/ios/Runner/Info.plist#L27-L30)
+
+This plugin supports both CocoaPods and Swift Package Manager on iOS. Flutter picks Swift
+Package Manager automatically when it's enabled for your app
+(`flutter config --enable-swift-package-manager`, Flutter 3.24+); otherwise it falls back to
+CocoaPods, no extra setup needed.
 
 ### Android
 Make sure to add permissions to the `app/src/main/AndroidManifest.xml` file.
