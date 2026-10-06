@@ -1,3 +1,7 @@
+## Unreleased
+* Updates the minimum supported SDK version to Flutter 3.44/Dart 3.12.
+* Migrates to built-in Kotlin.
+
 ## 1.0.0
 * Rebrand to `flutter_compass_v3`
 * Bump min Dart SDK to 3.4.0, min Flutter to 3.22.0
